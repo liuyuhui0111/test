@@ -4,7 +4,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>AlloyFinger</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <script src="reset.js"></script>
 </head>
 <style>
 *{margin: 0;padding: 0;border: none;}
@@ -14,19 +14,20 @@
         top: 0;
         left: 0;
         background: #333;
-        height: 40px;
-        line-height: 40px;
+        height: 4rem;
+        line-height: 4rem;
         overflow: hidden;
         width: 100%;
     }
     .footnav a,
     .topnav a{
-        color: #fff;
+        color: #ccc;
         display: block;
         float: left;
         width: 50%;
         text-align: center;
         text-decoration: none;
+         font-size: 2.4rem;
     }
     .footnav{
         display: block;
@@ -34,15 +35,16 @@
         bottom: 0;
         left: 0;
         background: #333;
-        height: 40px;
-        line-height: 40px;
+        height: 4rem;
+        line-height: 4rem;
         overflow: hidden;
         width: 100%;
+
     }
     .imgbox{
         position: fixed;
-        top: 40px;
-        bottom: 40px;
+        top: 4rem;
+        bottom: 4rem;
         width: 100%;
         display: -webkit-flex;
         display: -moz-flex;
@@ -59,8 +61,8 @@
 </style>
 <body>
     <div class="topnav">
-        <a style="color: #abcdef;" href="index.html">px 图片放大</a>
-        <a href="index2.html">rem 图片放大</a>
+        <a href="index.html">px 图片放大</a>
+        <a style="color: #abcdef;" href="index2.html">rem 图片放大</a>
     </div>
     <div class="imgbox">
         <img id="testimg" src="./asset/test.png" alt="">
